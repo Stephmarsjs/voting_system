@@ -39,7 +39,7 @@ class App extends Component{
                 <div className="languageName">
                     {lang.name}
                 </div> 
-          <button onClick={this.vote.bind(this, i)}>Click Here</button>
+          <button onClick={this.vote.bind(this, i)}>Vote Here</button>
        </div>
            )
          }
